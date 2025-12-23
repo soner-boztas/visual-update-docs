@@ -8,7 +8,7 @@ site_author: Soner Boztas & Contributors
 copyright: Copyright &copy; 2010-[Year] solicus. Last build on [Date]. Revision&colon; [CommitHash]. Branch&colon; [Branch].
 
 site_url: https://docs.visualupdate.net
-repo_url: https://github.com/soner-boztas/visual-update-express-docs
+repo_url: https://github.com/soner-boztas/visual-update-docs
 edit_uri: edit/main/docs/
 
 site_dir: !ENV [ DOCS_BUILD_FOLDER_NAME ]
