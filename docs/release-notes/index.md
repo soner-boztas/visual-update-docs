@@ -5,6 +5,12 @@ hide:
 
 # Release Notes
 
+## Version 1.3.1 (2025-12-23)
+
+`Available with InstallForge version 1.6.1`
+
+* `Enhancement` Improved download speed calculation algorithm for more accurate results
+
 ## Version 1.3.0 (2025-10-25)
 
 `Available with InstallForge version 1.5.0`
@@ -17,10 +23,10 @@ hide:
 
 * `Feature` Building DUP's in the context of a Continuous Deployment (CD) pipeline is now supported through the
   InstallForge CLI builder (available with InstallForge version 1.5.0+). More information can be found in
-  the [InstallForge documentation](https://docs.installforge.net/).
+  the [InstallForge documentation](https://docs.installforge.net/how-tos/building-setups-with-cli-builder/).
 * `Feature` DUP's can now be digitally signed during the build process using a code signing certificate
   (available with InstallForge version 1.5.0+). More information can be found in the
-  [InstallForge documentation](https://docs.installforge.net/).
+  [InstallForge documentation](https://docs.installforge.net/how-tos/code-signing-setup-packages/).
 * `Feature` Support for several new Windows [special folder path constants](../reference/path-constants.md)
 * `Enhancement` The update configuration is now stored in an XML file (`updateConfig.xml`) instead of in the DUP executable
 * `Enhancement` Improved performance of the native update engine
